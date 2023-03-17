@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif0
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 500px 100px;
+}
+
+header, nav, article, footer {
+    padding: 20px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+nav{
+    background-color:azure;
+   
+}
+
+article{
+    background-color: darkslategray;
+    
+}
+
+footer {
+    background-color:darkgrey;
+   
+}
+
+
+
+
